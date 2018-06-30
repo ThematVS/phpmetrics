@@ -1,0 +1,55 @@
+{
+	"rules": {
+		"indent": [2, 4],
+		"quotes": [2, "single"],
+		"linebreak-style": [2, "unix"],
+		"semi": [2, "always"],
+		"no-unused-vars": [2, { "vars": "all", "args": "none" }]
+	},
+	"env": {
+		"browser": true,
+		"jquery": true,
+		"amd": true,
+		"node": true
+	},
+	"globals": {
+		"featured_calendar": true,
+		"premium_calendar": true,
+		"featured_selected": true,
+		"premium_selected": true,
+		"actionUrls": true,
+		"bodyTypes": true,
+		"uploadParams": true,
+		"actionUrls": true,
+		"preparePurchasedDates": true,
+		"createYourAdOptions": true,
+		"vin": true,
+		"makesParams": true,
+		"ddm": true,
+		"purchasedDates": true,
+		"disableDates": true,
+		"getAdCalendarDates": true,
+		"month": true,
+		"carOptions": true,
+		"formData": true,
+		"facets": true,
+		"describe": true,
+		"it": true,
+		"s": true,
+		"o_cars_facets": true,
+		"o_list_of_facets": true,
+		"casper": true,
+		"phantom": true,
+		"listingId": true,
+		"isEmptySearch": true,
+		"savedSearches": true,
+		"saveSearchLink": true,
+		"miniNavLinks": true
+	},
+	"extends": ["eslint:recommended", "plugin:jsx-a11y/recommended"],
+	"ecmaFeatures": {
+		"jsx": true,
+		"experimentalObjectRestSpread": true
+	},
+	"plugins": ["react", "jsx-a11y"]
+}
